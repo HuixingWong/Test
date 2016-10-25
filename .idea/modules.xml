@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FragmentProject.iml" filepath="$PROJECT_DIR$/FragmentProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo2/demo2.iml" filepath="$PROJECT_DIR$/demo2/demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmentandviewpage/fragmentandviewpage.iml" filepath="$PROJECT_DIR$/fragmentandviewpage/fragmentandviewpage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmentnestactivity/fragmentnestactivity.iml" filepath="$PROJECT_DIR$/fragmentnestactivity/fragmentnestactivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pagertabstrip/pagertabstrip.iml" filepath="$PROJECT_DIR$/pagertabstrip/pagertabstrip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pagertitlesrtip/pagertitlesrtip.iml" filepath="$PROJECT_DIR$/pagertitlesrtip/pagertitlesrtip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+    </modules>
+  </component>
+</project>

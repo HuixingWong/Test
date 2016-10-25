@@ -1,0 +1,1 @@
+include ':app', ':fragmentandviewpage', ':fragmentnestactivity', ':demo2', ':pagertitlesrtip', ':pagertabstrip', ':test'

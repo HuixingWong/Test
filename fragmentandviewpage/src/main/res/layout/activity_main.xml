@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.huixing.fragmentandviewpage.MainActivity" >
+
+    <android.support.v4.view.ViewPager  
+        android:id="@+id/viewpager"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:flipInterval="30"
+        android:layout_weight="1"
+        android:persistentDrawingCache="animation" />
+
+    <ImageView
+        android:id="@+id/main_iv_indiator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="matrix"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="音乐"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:id="@+id/main_title_music"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="电影"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:id="@+id/main_title_movie"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="游戏"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:id="@+id/main_title_game"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
